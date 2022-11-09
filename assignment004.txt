@@ -1,0 +1,86 @@
+//11
+//#include<stdio.h>
+//int sumDigit(int);
+//int main()
+//{
+//    int num,result;
+//    scanf("%d",&num);
+//
+//    result=sumDigit(num);
+//    printf("sum of digit= %d",result);
+//}
+//int sumDigit(int n)
+//{
+//    int sum=0;
+//    while(n>0)
+//    {
+//        sum=sum+(n%10);
+//        n=n/10;
+//    }
+//    return sum;
+//}
+
+//9
+//#include<stdio.h>
+//void result(int*,int*);
+//int main()
+//{
+//    int min=0,max=0;
+//    result(&min,&max);
+//    printf("min=%d\n max=%d",min,max);
+//}
+//void result(int *min,int *max)
+//{
+//    int n1,n2,n3;
+//    scanf("%d %d %d",&n1,&n2,&n3);
+//
+//    if(n1>n2)
+//    {
+//        if(n1>n3)
+//            *max=n1;
+//        else
+//            *max=n3;
+//    }
+//    else
+//        *max=n2;
+//
+//
+//     if(n1<n2)
+//    {
+//        if(n1<n3)
+//            *min=n1;
+//        else
+//            *min=n3;
+//    }
+//    else
+//        *min=n2;
+//
+//
+//}
+
+
+//8
+//#include<stdio.h>
+//void result(int*,int*);
+//int main()
+//{
+//    int fact=1,result_pow=1;
+//
+//    result(&fact,&result_pow);
+//    printf("fact=%d\n result_pow=%d",fact,result_pow);
+//}
+//void result(int *fact,int *result_pow)
+//{
+//    int num,i,pow;
+//    printf("Enter a number and power");
+//    scanf("%d\n%d",&num,&pow);
+//
+//    for(i=1;i<=num;i++)
+//    {
+//        *fact=*fact*i;
+//    }
+//    for(i=1;i<=pow;i++)
+//    {
+//        *result_pow=*result_pow*num;
+//    }
+//}
